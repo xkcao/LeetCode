@@ -21,3 +21,16 @@ Hybrid solution
 - Enhanced Scaling
 - Reduced Cost
 - Reduced Code Complexity
+
+## Protocols for communication
+client-server communication
+
+HTTP(s): Client driver, Request response model, Occasional requests, Stateless
+- REST API: GET, DELETE, PUT
+- Low throughput (per user), Low infra cost
+- Examples: Amazon
+
+Websockets
+- Persistent connection, Bidirectional, High throughput communication
+- Reduced Latency, High infra Cost
+- Examples: Whatsapp
