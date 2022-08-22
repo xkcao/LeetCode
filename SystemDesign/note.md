@@ -34,3 +34,12 @@ Websockets
 - Persistent connection, Bidirectional, High throughput communication
 - Reduced Latency, High infra Cost
 - Examples: Whatsapp
+
+## Consistent Hashing
+Hashing
+- Convert one value to the other value
+- Examples: MD5, SHA1, SHA256
+
+Consistent Hashing
+- Add/remove machines, without moving all the data
+- Examples: Cassandra, Dynamo DB, Couchbase
