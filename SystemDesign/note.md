@@ -43,3 +43,27 @@ Hashing
 Consistent Hashing
 - Add/remove machines, without moving all the data
 - Examples: Cassandra, Dynamo DB, Couchbase
+
+## Caching
+What is cache
+- High speed, Data access and storage layer for quickly fetching previously computed data
+
+When to cache
+- Save computation heavy data, Save network calls, Commonly/Recently used data, RAM/SSD based
+
+When Not to cache
+- when you need high consistency
+- Write heavy/Read once
+- Low repetition
+
+How much to cache
+- Time based Expiration
+- Size based (FIFO, LFU, LRU, etc.)
+
+Metrics
+- Size
+- Latency
+- Cache hit rate, Cache miss rate
+
+Industry standards
+- Redis, Memcached, Hazelcast, Ehcache
