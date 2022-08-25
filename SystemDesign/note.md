@@ -67,3 +67,22 @@ Metrics
 
 Industry standards
 - Redis, Memcached, Hazelcast, Ehcache
+
+## Database
+NFR requirements are impacted by the choice of database
+
+Main factors: Structure of data, query pattern, the amount of scale
+
+Non DB types
+- Key value store caching solutions: Redis and others.
+- File/Blob storage for images/videos: Amazon S3, Content Delivery Network
+- Text search engine: Elasticsearch, Fuzzy search
+- Time series database: OpenTSDB
+- Data warehouse: Hadoop
+
+DB types
+- Relational database (structured data and need ACID): Mysql, Oracle, SQL server, Postgres
+- DocumentDB (non structured data, lots of queries): MongoDB, couchbase
+- Columnar DB (non structured data, ever increasing data): Cassandra, Hbase
+
+In real world, may need to combine multiple types of databases.
