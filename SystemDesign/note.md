@@ -86,3 +86,22 @@ DB types
 - Columnar DB (non structured data, ever increasing data): Cassandra, Hbase
 
 In real world, may need to combine multiple types of databases.
+
+## Rate Limiting
+Rate limiting is a method of limiting the amount of network traffic that can be sent or received for a particular entity in a time window.
+- Network traffic: # of requests, # of reads/writes, size of payload
+- Entity: User, IP Address, data centers
+
+Why to rate limit?
+- Prevent Bots, DoS/DDoS, Spam
+
+Implementation
+- Entity
+- Action counters
+- Configuration
+- Decision
+
+Rate Limiting Algorithms
+- Leaky Bucket
+- Fixed window
+- Sliding window
