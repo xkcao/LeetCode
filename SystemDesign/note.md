@@ -105,3 +105,41 @@ Rate Limiting Algorithms
 - Leaky Bucket
 - Fixed window
 - Sliding window
+
+
+# System Design Case Studies
+## Facebook System Desgin
+Functional Requirements
+- Make post
+- Like, comment, share
+- Add friends
+- See timeline
+- See a user's Post, profile
+- Activity log
+
+Non Functional Requirements
+- Read heavy
+- Fast rendering, posting
+- Lag is OK
+- Access pattern
+- Global
+- Scale
+
+Users
+- Famours
+- Active
+- Live
+- Passive
+- Inactive
+
+Architecture
+- User service: Mysql, Redis, Kafka
+- Graph service: Mysql, Redis, Kafka
+- Short URL service
+- Asset service
+- Post service
+- Post ingestion service
+- Archival service
+- Timeline service
+- Like service
+- Activity tracker
