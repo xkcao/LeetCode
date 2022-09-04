@@ -143,3 +143,37 @@ Architecture
 - Timeline service
 - Like service
 - Activity tracker
+
+## Amazon System Design
+FR
+- Search
+- Cart/WishList
+- Checkout
+- View order
+
+NFR
+- Low latency
+- High availability
+- High consistency
+
+Architecture
+- User home page, user search page
+- In Bound service: Kafka
+- Item service: MongoDB
+- search consumer: Elastic search
+- Search service:
+- Serviceability + TAT service:
+- Wishlist service: Mysql
+- Cart service: Mysql
+- Analytics: Kafka, Spark streaming, Hadoop cluster, Spark cluster
+- Recommendation service: 
+- User service
+- Logistic service
+- Warehouse service
+- Order taking service:
+- Inventory service: Mysql 
+- Archival service
+- Order processing service
+- Historical order service: Cassandra
+- Order view
+- Notification service
