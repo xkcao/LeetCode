@@ -177,3 +177,33 @@ Architecture
 - Historical order service: Cassandra
 - Order view
 - Notification service
+
+## Uber System Design
+FR
+- see cabs
+- ETA & approximate price
+- book a cab
+- location tracking
+
+NFR
+- global
+- low latency
+- high availability
+- high consitency
+- scale
+
+Achitecture
+- Map service
+- User app
+- user Service: Mysql, Redis
+- Cab request service
+- Cab finder
+- Driver app
+- driver service: mysql, redis
+- location service: cassandra, redis
+- websocket handler
+- websocket manager: redis
+- trip service: mysql, cassandra
+- trip archiver
+- payment service: mysql
+- spark streaming cluster, hadoop cluster, Spark ML jobs
