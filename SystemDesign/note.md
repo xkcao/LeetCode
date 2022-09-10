@@ -207,3 +207,28 @@ Achitecture
 - trip archiver
 - payment service: mysql
 - spark streaming cluster, hadoop cluster, Spark ML jobs
+
+## WhatsApp System Design
+FR
+- one to one chat
+- group chat
+- text/images/video
+- read receipt
+- last seen
+
+NFR
+- low latency
+- high availability
+- no lag
+- scale
+
+Architecture
+- web socket handler
+- web socket manager: redis
+- message service: cassandra
+- Asset servcie: S3, CDN
+- user app
+- user service: mysql, redis
+- group service: mysql, redis
+- analytics service: kafka, hadoop
+- last seen service: cassandra
