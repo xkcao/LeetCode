@@ -232,3 +232,20 @@ Architecture
 - group service: mysql, redis
 - analytics service: kafka, hadoop
 - last seen service: cassandra
+
+## Twitter System Design
+FR
+- tweet
+- re-tweet
+- follow
+- search
+
+NFR
+- read heavy platform
+- fast rendering
+- fast tweet
+- lag OK in some cases
+- scale
+
+Users: famous, active, live, passive, inactive
+
