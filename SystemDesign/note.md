@@ -249,3 +249,14 @@ NFR
 
 Users: famous, active, live, passive, inactive
 
+## Google map system design
+FR
+- Identify roads, routes
+- Distance & ETA between 2 points
+- Plugable
+
+NFR
+- Highly availability
+- Good acccuracy
+- Not too slow
+- Scale
