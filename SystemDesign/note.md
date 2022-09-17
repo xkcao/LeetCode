@@ -260,3 +260,15 @@ NFR
 - Good acccuracy
 - Not too slow
 - Scale
+
+## Airbnb System Design
+FR
+- Hotel: onboarding, updates, bookings
+- User: search, book, check bookings
+- Analytics
+
+NFR
+- low latency
+- high availability
+- high consistency
+- scale
