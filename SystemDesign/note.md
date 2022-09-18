@@ -272,3 +272,14 @@ NFR
 - high availability
 - high consistency
 - scale
+
+## Netflix System Design
+FR
+- upload videos
+- user's homepage + search
+- play videos
+- support all devices
+
+NFR
+- no buffering: no latency, high availability
+- increase user's session time
