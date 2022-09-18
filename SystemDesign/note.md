@@ -283,3 +283,14 @@ FR
 NFR
 - no buffering: no latency, high availability
 - increase user's session time
+
+## Notification Service System Design
+FR
+- send notification
+- plugable
+- SaaS: rate limiting
+- prioritization
+
+NFR
+- high availability
+- many clients
