@@ -294,3 +294,12 @@ FR
 NFR
 - high availability
 - many clients
+
+## TinyURL System Design
+FR
+- get short URL
+- redirect to long URL
+
+NFR
+- very low latency
+- very high availability
