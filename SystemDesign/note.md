@@ -303,3 +303,15 @@ FR
 NFR
 - very low latency
 - very high availability
+
+## Zoom System Design
+FR
+- 1 on 1 calls
+- Group calls
+- Audio/Video/Screen share
+- Record
+
+NFR
+- Super fast
+- High availability
+- Data loss is OK
